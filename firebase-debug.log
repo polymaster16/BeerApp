@@ -64,3 +64,43 @@ Before we get started, keep in mind:
 [info] 
 [info] ✔  Success! Logged into GitHub as polymaster16 
 [info] 
+[debug] [2022-11-29T23:39:42.113Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:39:43.102Z] <<< [apiv2][status] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key 401
+[debug] [2022-11-29T23:39:43.104Z] <<< [apiv2][body] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:39:56.381Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:39:57.332Z] <<< [apiv2][status] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key 401
+[debug] [2022-11-29T23:39:57.333Z] <<< [apiv2][body] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:40:13.256Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:40:14.297Z] <<< [apiv2][status] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key 401
+[debug] [2022-11-29T23:40:14.297Z] <<< [apiv2][body] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:40:15.503Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:42:05.537Z] >>> [apiv2][query] GET https://api.github.com/repos//BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:42:07.039Z] <<< [apiv2][status] GET https://api.github.com/repos//BeerApp/actions/secrets/public-key 401
+[debug] [2022-11-29T23:42:07.040Z] <<< [apiv2][body] GET https://api.github.com/repos//BeerApp/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:42:08.189Z] >>> [apiv2][query] GET https://api.github.com/repos//BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:42:08.460Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:42:09.779Z] <<< [apiv2][status] GET https://api.github.com/repos//BeerApp/actions/secrets/public-key 401
+[debug] [2022-11-29T23:42:09.780Z] <<< [apiv2][body] GET https://api.github.com/repos//BeerApp/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:42:09.822Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2022-11-29T23:42:09.823Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:42:25.622Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:42:26.453Z] <<< [apiv2][status] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key 401
+[debug] [2022-11-29T23:42:26.454Z] <<< [apiv2][body] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:43:36.049Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:43:36.344Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:43:36.676Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:43:37.072Z] <<< [apiv2][status] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key 401
+[debug] [2022-11-29T23:43:37.073Z] <<< [apiv2][body] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:43:37.332Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2022-11-29T23:43:37.333Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:43:37.777Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2022-11-29T23:43:37.778Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:43:38.936Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:43:39.935Z] <<< [apiv2][status] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key 401
+[debug] [2022-11-29T23:43:39.936Z] <<< [apiv2][body] GET https://api.github.com/repos/polymaster16/BeerApp/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:43:43.803Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/BeerApp /actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:43:44.918Z] <<< [apiv2][status] GET https://api.github.com/repos/polymaster16/BeerApp /actions/secrets/public-key 401
+[debug] [2022-11-29T23:43:44.918Z] <<< [apiv2][body] GET https://api.github.com/repos/polymaster16/BeerApp /actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2022-11-29T23:43:56.505Z] >>> [apiv2][query] GET https://api.github.com/repos/polymaster16/votx-system/actions/secrets/public-key type=owner
+[debug] [2022-11-29T23:43:59.701Z] <<< [apiv2][status] GET https://api.github.com/repos/polymaster16/votx-system/actions/secrets/public-key 401
+[debug] [2022-11-29T23:43:59.701Z] <<< [apiv2][body] GET https://api.github.com/repos/polymaster16/votx-system/actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
