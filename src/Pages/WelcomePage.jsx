@@ -19,7 +19,10 @@ function WelcomePage() {
     window.location.href = '/App';
   }}>Voter</button>
              <br/>
-            <button  className='deposerButton'>Deposer une Candidature</button>
+            <button  className='deposerButton'
+             onClick={() => {
+                window.location.href = '/CandidateInfo';
+              }}>Deposer une Candidature</button>
 
             </div>
         </div>

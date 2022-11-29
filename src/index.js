@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainPage from './Pages/Main';
 import TopBar from './Components/TopBar';
 import WelcomePage from './Pages/WelcomePage';
+import CandidateInfo from './Pages/CandidateInfo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
  <Route exact path='/Welcome' element={<WelcomePage />}></Route>
  <Route exact path='/Main' element={<MainPage />}></Route>
  <Route exact path='/App' element={<App />}></Route>
+ <Route exact path='/CandidateInfo' element={<CandidateInfo />}></Route>
 
     </Routes>
     </BrowserRouter>

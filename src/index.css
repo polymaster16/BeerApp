@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   background-image: url(https://i.ytimg.com/vi/R9mXtzn8meE/maxresdefault.jpg);
+  background-size: cover;
 }
 
 code {
@@ -58,6 +59,31 @@ border-bottom-right-radius: 30%;
   margin-top: 5%;
 }
 
+
+.voteButton:hover{
+  align-self: center;
+  background-color: rgb(128, 172, 255);
+border-top-left-radius: 30%;
+border-bottom-right-radius: 30%;
+  border-width: 0mm;
+  border-color: rgba(240, 248, 255, 0);
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  padding-left: 25%;
+  padding-right: 25%;
+
+
+
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 150%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+
+
 .deposerButton{
   background-color: rgb(80, 194, 60);
   border-top-left-radius: 30%;
@@ -78,14 +104,52 @@ border-bottom-right-radius: 30%;
  
 }
 
-.ictuLogo{
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNI3nUFOmf0nLT3QczAsPrNEablEBdDGY7zQ&usqp=CAU);
-  background-size: cover;
-  width: 40rem;
-  height: 35rem;
+.deposerButton:hover{
+  background-color: rgb(128, 210, 114);
+  border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  border-width: 0mm;
+  border-color: rgba(240, 248, 255, 0);
+  padding-top: 5%;
+  padding-bottom: 5%;
 
+  padding-left: 15%;
+  padding-right: 15%;
+
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 150%;
   margin-left: 20%;
+  margin-top: 5%;
  
+}
+
+.ictuLogo{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNI3nUFOmf0nLT3QczAsPrNEablEBdDGY7zQ&usqp=CAU); 
+
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+ margin-right: auto;
+
+}
+.cont{
+  margin-left: auto;
+  margin-right: auto;
+}
+.hh{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 0%;
+}
+
+.fild{
+margin-left: auto;
+margin-right: auto;
+margin-top: 1%;
+margin-bottom: 2%;
 
 }
 
@@ -161,9 +225,45 @@ border-bottom-right-radius: 30%;
         margin-top: 5%;
        
       }
+
+         
+      .deposerButton:hover{
+        background-color: rgba(80, 194, 60, 0);
+        border-top-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        border-width: 10m;
+        border-color: rgb(80, 194, 60);
+        padding-top: 5%;
+        padding-bottom: 5%;
+      
+        padding-left: 5%;
+        padding-right: 5%;
+      
+        color:rgb(80, 194, 60);
+        font-weight: bolder;
+        font-size: 150%;
+        margin-left: 2%;
+        margin-top: 5%;
+       
+      }
       
       
+      .fild{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 5%;  
+        
+        }
       
+      .hh{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        margin-bottom: 0%;
+      }
+       
       
         
 
